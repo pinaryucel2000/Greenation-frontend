@@ -1,0 +1,52 @@
+#userGuideHeader {
+  width: 100%;
+  height: 100%;
+}
+
+#userGuideHeader h2 {
+  height: 40px;
+  font-size: 30px;
+  line-height: 120%;
+  font-weight: 900;
+  color: #31b573;
+  text-align: left;
+  margin: 0;
+  margin-bottom: 5%;
+}
+
+#userGuideHeader h3 {
+  font-size: 25px;
+  line-height: 120%;
+  font-weight: 900;
+  color: #31b573;
+  text-align: left;
+  margin: 0;
+}
+
+.userGuideHeaderParagraphPair {
+  margin-top: 4%;
+}
+
+#userGuideHeader p {
+  font-size: 21px;
+  line-height: 120%;
+  padding-bottom: 8%;
+}
+
+.userGuideTwoColums {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 7%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.userGuideColum {
+  flex: 1;
+  margin: 0em 5em 0 5em;
+}
+
+.actionButtonsVehicles {
+  width: 10%;
+}

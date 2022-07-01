@@ -1,0 +1,137 @@
+#projects {
+  margin: 0 auto;
+  padding-top: 4%;
+  width: 72%;
+}
+
+#projectTable {
+  border-spacing: 0;
+  background-color: #fefffe;
+  box-shadow: 0 1px 7px rgba(0, 0, 0, 0.3);
+  width: 100%;
+  color: #282e38;
+  font-family: "Montserrat";
+  font-size: 20px;
+  border-radius: 0px;
+}
+
+
+.projectEntry td {
+  align-items: center;
+  border: 2px solid #53545224;
+  font-weight: 500;
+  text-align: left;
+  padding: 1em 0.7em 1em 0.7em;
+}
+
+.projectEntry:hover td {
+  background: #eeeeee;
+  font-weight: 900;
+}
+
+
+#projects h2 {
+  height: 40px;
+  font-size: 30px;
+  line-height: 120%;
+  font-weight: 900;
+  color: #31b573;
+  text-align: left;
+}
+
+#projectTableTop th {
+  font-weight: 900;
+  text-align: left;
+  border: 2px solid #53545224;
+  padding: 1em 0.7em 1em 0.7em;
+}
+
+.projectEntry td {
+  border: 2px solid #53545224;
+  font-weight: 500;
+  text-align: left;
+  padding: 0.6em 0.7em 0.6em 0.7em;
+}
+
+
+.projectActionColumn {
+  width: 130px;
+}
+
+.projectTypeColumn {
+  width: 160px;
+}
+
+.noProject {
+  padding-top: 18%;
+  font-size: 27px;
+  margin: auto;
+  text-align: center;
+}
+
+.noProject a {
+  color: #31b573;
+  font-weight: 600;
+}
+
+.deleteProjectConfirmationContent {
+  font-family: "Montserrat";
+}
+
+.deleteProjectConfirmationHeader {
+  margin: 10px;
+  margin-left: 0;
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 21px;
+  text-align: left;
+  color: #282e38;
+}
+
+.actionButtonsProjects {
+  width: 5%;
+
+}
+
+#projectsTop {
+  display: flex;
+  flex-direction: row;
+}
+
+.searchPaper {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1%;
+  width: 62%;
+  height: 50px;
+  padding: 2px 4px;
+  background-color: #c5c5c515;
+  margin-right: 2%;
+}
+
+.searchIcon {
+  padding: 1%;
+}
+
+.inputBase {
+  margin-left: 5px;
+  flex: 1;
+}
+
+.legend {
+  margin-bottom: 1%;
+  margin-left: 2%;
+  width: 36%;
+}
+
+.legendItem {
+  display: flex;
+  align-items: center;
+  float: right;
+  margin-left: 5%;
+}
+
+.legendItem p {
+  font-size: 15px;
+  padding-top: 2%;
+}

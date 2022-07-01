@@ -1,0 +1,94 @@
+#vehicles {
+  margin: 0 auto;
+  padding-top: 7%;
+  width: 72%;
+}
+
+#vehicles h2 {
+  height: 40px;
+  font-size: 30px;
+  line-height: 120%;
+  font-weight: 900;
+  color: #31b573;
+  text-align: left;
+  width: 200px;
+}
+
+.headerContainerVehicles {
+  width: 100%;
+}
+
+.vehiclesHeader {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+#vehicleTable {
+  border-spacing: 0;
+  background-color: #fdfdfd;
+  box-shadow: 0 1px 7px rgba(0, 0, 0, 0.3);
+  width: 100%;
+  color: #282e38;
+  font-family: "Montserrat";
+  font-size: 20px;
+  border-radius: 0px;
+
+}
+
+.vehicleAction {
+  width: 130px;
+}
+
+#vehicleTableTop th {
+  font-weight: 900;
+  text-align: left;
+  border: 2px solid #53545224;
+  padding: 1em 0.7em 1em 0.7em;
+}
+
+.vehicleEntry td {
+  height: 40px;
+  align-items: center;
+  border: 2px solid #53545224;
+  font-weight: 500;
+  text-align: left;
+  padding: 0.6em 0.7em 0.6em 0.7em;
+}
+
+.vehicleEntry:hover td {
+  background: #eeeeee;
+  font-weight: 900;
+}
+
+.vehiclesDialogHeader {
+  margin: 10px;
+  margin-left: 0;
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 21px;
+  text-align: left;
+  color: #282e38;
+}
+
+.addVehicleLabel {
+  font-family: "Montserrat";
+  width: 100px;
+}
+
+.vehiclesDialogRow {
+  width: 400px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.vehicleError {
+  margin-left: 5%;
+  margin-bottom: 5%;
+  color: rgb(226, 0, 0);
+}
+
+.deleteVehicleConfirmationContent {
+  font-family: "Montserrat";
+}

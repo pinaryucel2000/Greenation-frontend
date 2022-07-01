@@ -1,0 +1,77 @@
+#aboutHeader {
+  width: 100%;
+  height: 100vh;
+  background-image: url("../../../../public/headerBackground.png");
+  background-size: cover;
+}
+
+
+
+#aboutHeader h1 {
+  font-family: "Montserrat";
+  font-size: 70px;
+  line-height: 1.5em;
+  font-weight: 900;
+  color: #282e38;
+  text-align: center;
+  margin: 0;
+}
+
+#aboutHeader h1 a {
+  font-family: "Montserrat";
+  font-size: 70px;
+  line-height: 1.5em;
+  font-weight: 900;
+  color: #282e38;
+  text-align: center;
+  margin: 0;
+}
+
+.headerContainer {
+  width: 1000px;
+  margin: auto;
+  padding: 12% 2% 0 2%;
+}
+
+.aboutBorder {
+  border-top: 1px solid #3a3f48;
+  width: 72.5%;
+  margin: 0.5em auto;
+}
+
+#aboutHeader p {
+  font-size: 22px;
+  line-height: 120%;
+  color: #545a63;
+}
+
+.aboutTwoColumns {
+  width: 74%;
+  margin: 1% auto;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.aboutColumn {
+  flex: 1;
+  margin: 0em 1em 0 1em;
+}
+
+.howItWorksAndMeetTheTeam {
+  background-image: linear-gradient(#086047, #282e38);
+}
+
+@media only screen and (max-width: 1260px) {
+  #aboutHeader h1 {
+    font-size: 50px;
+  }
+
+  .headerContainer {
+    width: 1000px;
+    margin: auto;
+    padding: 18% 2% 0 2%;
+  }
+
+}

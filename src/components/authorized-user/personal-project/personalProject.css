@@ -1,0 +1,19 @@
+#project {
+    margin: 0 auto;
+    padding-top: 4.5%;
+    width: 72%;
+}
+
+#project h2 {
+    height: 40px;
+    font-size: 30px;
+    line-height: 120%;
+    font-weight: 900;
+    color: #31b573;
+    text-align: left;
+}
+
+#projectMap {
+    height: 700px;
+    width: 100%;
+}

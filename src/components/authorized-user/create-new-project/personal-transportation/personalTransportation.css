@@ -1,0 +1,65 @@
+.personalProjectBottom {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.emptyColumn {
+    width: 100px;
+}
+
+.vehicleInfoContainer fieldset {
+    border: none !important;
+    outline: none !important;
+}
+
+.vehicleInfoContainer {
+    width: 100%;
+}
+
+.vehicleInfoContainer p {
+    height: 100%;
+}
+
+.personalProjectBottomColumn {
+    width: 100%;
+    margin-bottom: 3%;
+    margin-top: 20px;
+}
+
+.publicProjectBottom {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.labelButtonPair {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.linearProcess {
+    margin-top: 3%;
+    height: 5px;
+    color: #31b573;
+    width: 100%;
+}
+
+.hintPersonal {
+    padding: 2%;
+    padding-left: 0;
+    line-height: 130%
+}
+
+.personalProjectFields {
+    width: 96%;
+}
+
+.personalProjectMap {
+    width: 96%;
+    float: right;
+    height: 100%;
+}
